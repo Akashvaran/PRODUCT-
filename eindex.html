@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estyle.css">
+</head>
+<body>
+    
+
+<h1>PRODUCT COLLOCTOR </h1>
+<div>
+    <div>
+        <label for="stockitem">STOCK-ITEM</label>
+        <input type="text" id="stockitem">
+    </div>
+    <div>
+        <label for="img">IMAGE</label>
+        <input type="file" id="imgfile">
+    </div>
+    <div>
+        <label for="qty">QTY</label>
+        <input type="text" id="qty">
+    </div>
+    <div>
+        <label for="Rate">RATE</label>
+        <input type="text" id="rate">
+    </div>
+    <div>
+        <label for="amount">AMOUNT</label>
+        <input type="text" id="amount">
+    </div>
+    <input type="button" id="imgbtn" value="PRINT INVOICE">
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>StockItem</th>
+            <th>Image</th>
+            <th>QTY</th>
+            <th>Rate</th>
+            <th>Amount</th>
+        </tr>
+    </thead>
+    <tbody id="tablebody"></tbody>
+</table>
+    <script src="escript.js"></script>
+</body>
+</html>
